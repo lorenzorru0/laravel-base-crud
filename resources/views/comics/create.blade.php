@@ -18,7 +18,7 @@
 
         <div class="mb-3">
             <label for="thumb" class="form-label">Image's url</label>
-            <textarea name="thumb" id="thumb" cols="30" rows="10" class="form-control" placeholder="Write the url image"></textarea>
+            <textarea name="thumb" id="thumb" cols="30" rows="3" class="form-control" placeholder="Write the url image"></textarea>
         </div>
 
         <div class="mb-3">

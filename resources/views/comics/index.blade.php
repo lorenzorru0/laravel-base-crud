@@ -21,9 +21,9 @@
                     <th scope="row">{{$comic['id']}}</th>
                     <td>{{$comic['title']}}</td>
                     <td>{{$comic['description']}}</td>
-                    <td>{{$comic['price']}}</td>
+                    <td>{{$comic['price']}} €</td>
                     <td>{{$comic['series']}}</td>
-                    <td>{{date("d-m-Y", $comic['sake_date'])}}</td>
+                    <td>{{$comic['sale_date']}}</td>
                     <td>{{$comic['type']}}</td>
                     <td><a href="{{route('comics.show', $comic['id'])}}"><button type="button" class="btn btn-info">View</button></a></td>
                 </tr>

@@ -1,13 +1,13 @@
 <header>
     <ul class="nav justify-content-center">
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Active</a>
+            <a class="nav-link" href="/">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="{{route('comics.index')}}">Comics list</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="{{route('comics.create')}}">Create Comic</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">Link</a>

@@ -10962,6 +10962,10 @@ a.text-dark:focus {
   }
 }
 
+body {
+  padding-bottom: 1.25rem;
+}
+
 h1 {
   text-align: center;
   margin-top: 1.25rem;

@@ -25,7 +25,11 @@
                     <td>{{$comic['series']}}</td>
                     <td>{{$comic['sale_date']}}</td>
                     <td>{{$comic['type']}}</td>
-                    <td><a href="{{route('comics.show', $comic['id'])}}"><button type="button" class="btn btn-info">View</button></a></td>
+                    <td>
+                        <a class="d-block mb-1" href="{{route('comics.show', $comic['id'])}}"><button type="button" class="btn btn-info">View</button></a><br>
+                        <a class="d-block mb-1" href="{{route('comics.edit', $comic['id'])}}"><button type="button" class="btn btn-warning">Edit</button></a><br>
+                        <a class="d-block mb-1" href=""><button type="button" class="btn btn-danger">Delete</button></a><br>
+                    </td>
                 </tr>
             @endforeach
         </tbody>

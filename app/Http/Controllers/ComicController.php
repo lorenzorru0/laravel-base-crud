@@ -10,7 +10,7 @@ class ComicController extends Controller
     protected $validateRules = [
         'description' => 'required',
         'thumb' => 'required|url',
-        'price' => 'required|min:0.99|max:999.99',
+        'price' => 'required|numeric|min:0.99|max:999.99',
         'series' => 'required|min:5|max:100',
         'sale_date' => 'required',
         'type' => 'required|min:2|max:100'

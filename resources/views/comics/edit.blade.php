@@ -20,7 +20,7 @@
 
         <div class="mb-3">
             <label for="description" class="form-label">Description</label>
-            <textarea name="description" id="description" cols="30" rows="10" class="form-control" placeholder="Write the descriptiom">{{old('description') ? old('description') : $comic['description']}}</textarea>
+            <textarea name="description" id="description" cols="30" rows="10" class="form-control" placeholder="Write the description">{{old('description') ? old('description') : $comic['description']}}</textarea>
             
             @error('description')
                 <div class="alert alert-danger mt-1" role="alert">
@@ -53,7 +53,7 @@
 
         <div class="mb-3">
             <label for="series" class="form-label">Series</label>
-            <input type="text" class="form-control" id="series" name="series" placeholder="Write the serires" value="{{old('series') ? old('series') : $comic['series']}}">
+            <input type="text" class="form-control" id="series" name="series" placeholder="Write the series" value="{{old('series') ? old('series') : $comic['series']}}">
         
             @error('series')
                 <div class="alert alert-danger mt-1" role="alert">

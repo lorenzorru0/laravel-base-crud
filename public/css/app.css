@@ -10966,6 +10966,12 @@ body {
   padding-bottom: 1.25rem;
 }
 
+img {
+  display: block;
+  margin: 1.875rem auto;
+  width: 20%;
+}
+
 h1 {
   text-align: center;
   margin-top: 1.25rem;
@@ -10977,5 +10983,10 @@ h1 {
 
 .row img {
   width: 100%;
+}
+
+h5,
+.modal-body {
+  color: #000;
 }
 

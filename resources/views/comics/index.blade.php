@@ -46,7 +46,7 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    Are you sure that you want delte {{$comic['title']}}
+                                    Are you sure that you want delete {{$comic['title']}}
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
